@@ -1,0 +1,14 @@
+#box {
+  background: linear-gradient(90deg, red, yellow);
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px grey; /* Perbaiki spasi di antara angka */
+  display: flex; /* Menjadikan konten sebagai flex container */
+  justify-content: center; /* Mengatur konten secara horizontal */
+  align-items: center; /* Mengatur konten secara vertikal */
+}
+
+#box h1 {
+  text-align: center; /* Memastikan teks berada di tengah secara horizontal */
+}
